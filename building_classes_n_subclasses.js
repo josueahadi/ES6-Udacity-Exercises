@@ -18,8 +18,6 @@ class Vehicle {
 class Bicycle extends Vehicle {
   constructor(color = 'blue', wheels = 2, horn = 'honk honk') {
     super(color, wheels, horn);
-    this.wheels = wheels;
-    this.horn = horn;
   }
   
 }
