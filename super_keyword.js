@@ -12,11 +12,11 @@ class Car {
       super(brand);
       this.model = mod;
     }
-    show() {
-      return `${this.present()}, it is a ${this.model}`;
+    present() {
+      return (`${super.present()}, it is a ${this.model}`);
     }
   }
   
   myCar = new Model("Ford", "Mustang");
   
-  console.log(myCar.show());
+  console.log(myCar.present());
